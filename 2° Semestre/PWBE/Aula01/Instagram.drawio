@@ -206,7 +206,6 @@
         <mxCell id="41" value="Contém" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.97;entryX=0.5;entryY=0;" parent="1" source="19" target="26" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1287" y="465" />
               <mxPoint x="1191" y="501" />
             </Array>
           </mxGeometry>
