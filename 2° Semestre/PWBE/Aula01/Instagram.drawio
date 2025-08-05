@@ -186,8 +186,8 @@
         <mxCell id="39" value="Contém" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.57;entryX=0.15;entryY=0;" parent="1" source="19" target="24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="38" y="465" />
-              <mxPoint x="38" y="501" />
+              <mxPoint x="180" y="470" />
+              <mxPoint x="100" y="500" />
             </Array>
           </mxGeometry>
         </mxCell>
