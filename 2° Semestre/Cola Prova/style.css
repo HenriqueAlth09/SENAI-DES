@@ -1,0 +1,81 @@
+body{
+    color: rgb(0, 0, 0);
+    background-image:url("denisonfagundes_sesi_canoas-144.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.body:hover{
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgb(95, 13, 13);
+}
+h1{
+    text-align: center;
+    color: radial-gradient(circle, red, #e57878);
+}
+header{
+    background: radial-gradient(circle, red, #e57878);
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1{
+    margin: 0;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 10px;
+}
+ol{
+    text-align: left;
+}
+nav ol a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.cards{
+    color: rgb(0, 0, 0);
+    background: radial-gradient(circle, red, #e57878);
+    border-radius: 8px;
+    padding: 1rem;
+    width: 97%;
+    box-shadow: 0 4px 8px #691919;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+.card{
+    background: radial-gradient(circle, red, #e57878);
+    border-radius: 8px;
+    padding: 1rem;
+    width: 80%;
+}
+.cards img{
+    width: 250px;
+    height: auto;
+    align-items: center;
+}
+
+
+.card:hover{
+    transform: scale(1.01);
+    box-shadow: 0 8px 16px rgb(95, 13, 13);
+}
+
+

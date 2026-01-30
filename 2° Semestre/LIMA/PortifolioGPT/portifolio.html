@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8"> <!-- Codificação de caracteres -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade -->
+  <title>Portfólio | João Silva</title> <!-- Título da aba -->
+  <link rel="stylesheet" href="portifolio.css"> <!-- Importa o CSS -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- Ícones Font Awesome -->
+</head>
+<body>
+
+  <!-- Cabeçalho com nome e título -->
+  <header class="cabecalho">
+    <h1 class="nome">João Silva</h1>
+    <p class="descricao">Desenvolvedor Front-End | Criador de Experiências Digitais</p>
+    <a href="curriculo.pdf" class="botao-cv" download>📄 Baixar Currículo</a>
+  </header>
+
+  <!-- Seção Sobre Mim -->
+  <section class="sobre">
+    <img src="foto.jpg" alt="Foto de João Silva" class="foto"> <!-- Foto de perfil -->
+    <div class="texto-sobre">
+      <h2>Sobre Mim</h2>
+      <p>Sou desenvolvedor apaixonado por transformar ideias em interfaces incríveis. Tenho experiência com HTML, CSS, JavaScript e frameworks modernos como React.</p>
+    </div>
+  </section>
+
+  <!-- Seção de Habilidades -->
+  <section class="habilidades">
+    <h2>Habilidades Técnicas</h2>
+    <div class="lista-habilidades">
+      <div class="habilidade"><i class="fab fa-html5"></i> HTML5</div>
+      <div class="habilidade"><i class="fab fa-css3-alt"></i> CSS3</div>
+      <div class="habilidade"><i class="fab fa-js-square"></i> JavaScript</div>
+      <div class="habilidade"><i class="fab fa-react"></i> React</div>
+    </div>
+  </section>
+
+  <!-- Seção de Projetos -->
+  <section class="projetos">
+    <h2>Projetos Recentes</h2>
+    <div class="cards">
+      <div class="card">
+        <i class="fas fa-laptop-code icon"></i>
+        <h3>Landing Page</h3>
+        <p>Site moderno com animações e responsividade.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-mobile-alt icon"></i>
+        <h3>App Mobile</h3>
+        <p>Protótipo de aplicativo com foco em UX/UI.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-chart-line icon"></i>
+        <h3>Dashboard</h3>
+        <p>Visualização de dados com gráficos interativos.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Contato -->
+  <section class="contato">
+    <h2>Entre em Contato</h2>
+    <form>
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <textarea placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="rodape">
+    <p>© 2025 João Silva | Desenvolvido com ❤️</p>
+  </footer>
+
+  <script src="script.js"></script> <!-- Importa o JS -->
+</body>
+</html>

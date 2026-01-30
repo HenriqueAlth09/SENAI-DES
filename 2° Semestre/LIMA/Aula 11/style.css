@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SUSE Mono", monospace;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+    background-color: #0f50dc51;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+header i {
+    color: s#000000;
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+header ul li {
+    color: #000000;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+}
+
+nav {
+    width: 200px;
+    height: 129%;
+    background-color: #0f50dc51;
+    border-top: 1px solid #000000;
+}
+
+nav ul li {
+    color: srgb(255, 255, 255);
+    padding: 15px;
+    display: block;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+nav ul li:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+main {
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 15px;
+    row-gap: 15px;
+    background-color: #ffffff;
+}
+
+main .box {
+    width: 250px;
+    height: 300px;
+    background-color: #0f50dc51;
+    border-radius: 10px;
+}
+
+.box img {
+    width: 95%;
+    height: 55%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.box .info {
+    height: 100%;
+    max-height: 40%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 0 10px;
+    gap: 10px;
+}
+
+.info button {
+    width: 80%;
+    align-self: center;
+    background-color: #0f50dc51;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    padding: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(230, 23, 23, 0.2);
+}
+
+@media (max-width: 700px) {
+    header ul {
+        display: none;
+    }
+    header i {
+        display: block !important;
+    }
+    .container nav {
+        position: absolute;
+        top: 0;
+        height: 100vh;
+        left: 0;
+    }
+}

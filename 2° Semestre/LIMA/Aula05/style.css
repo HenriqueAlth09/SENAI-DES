@@ -1,0 +1,104 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo com fonte elegante */
+body {
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.6;
+  background-color: #e6f2e6; /* verde bem claro */
+  color: #2e4d2e; /* verde escuro suave */
+}
+
+/* Cabeçalho com fonte decorativa */
+header {
+  background-color: #1b5e20; /* verde Palmeiras mais escuro */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+/* Navegação com fonte decorativa */
+nav ul {
+  list-style: none;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: #a5d6a7; /* verde claro */
+  text-decoration: none;
+  font-weight: 700;
+  font-family: 'Playfair Display', serif;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Seções com fonte moderna */
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Títulos com fonte decorativa */
+h2 {
+  margin-bottom: 20px;
+  color: #1b5e20;
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+}
+
+/* Projetos com fonte moderna */
+.projetos-container {
+  display: flex;
+  font-family: 'Quicksand', sans-serif;;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.projeto {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #c8e6c9; /* borda verde suave */
+  flex: 1 1 300px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 64, 0, 0.1);
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Rodapé com fonte moderna */
+.footer {
+  background-color: #1b5e20;
+  color: #c8e6c9;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  font-family: 'Quicksand', sans-serif;
+}
+#dragon-cursor{
+    width: 250;
+    height: 250px;
+    border: 2px;
+    box-shadow: 2px;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  .projetos-container {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,42 @@
+/* Rodapé */
+.rodape {
+  text-align: center;
+  padding: 20px;
+  background-color: #111; /* Fundo escuro para contraste */
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+/* Animações */
+@keyframes girar {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .sobre {
+    flex-direction: column; /* Empilha imagem e texto */
+    text-align: center;
+  }
+
+  .lista-habilidades {
+    flex-direction: column; /* Empilha habilidades */
+    align-items: center;
+  }
+
+  .cards {
+    flex-direction: column; /* Empilha os cards de projeto */
+    align-items: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

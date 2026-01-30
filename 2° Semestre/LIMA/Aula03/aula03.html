@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula03</title>
+</head>
+<body>
+    <center><h1>Lanchonete Do Seu Zé</h1>
+    <hr>
+    <br>
+    <h3>Monte seu lanche</h3>
+    </center>
+    <form action=""method="">
+        <p>
+        <label for="nome">Nome Completo</label>
+        <input type="text" id="nome" placeholder="Insira seu nome" required />
+        </p>
+        <p>
+            <label for="datanasc">Data De Nascimento</label>
+            <input id="datanasc" type="date" />        
+        </p>
+        <p>
+            <label for="indica">Você Nos Indicaria ?</label>
+            <input id="indica" type="number" min="1" max="5" />        
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Insira seu email" required /> 
+        </p>
+        <p>
+            <label for="cor">Cor Favorita</label>
+            <input id="cor" type="color" />
+        </p>
+        <p>
+            <label for="volume">Em qual volume você ouve musica (0 a 100)</label>
+            <input id="volume" type="range" min="0" max="100" value="50"  
+            oninput="valorVolume.textContent = this.value" />
+            <span id="valorVolume">50</span> 
+            
+            <style>
+                #volume {
+                    accent-color: red;
+                }
+                #Fem {
+                    accent-color: pink;
+                }
+                #masc {
+                    accent-color: blue;
+                }
+                #outros {
+                    accent-color: purple;
+                }
+                #salada {
+                    accent-color: green 
+                }
+                #tom {
+                    accent-color: red 
+                }
+                #hamb {
+                    accent-color: brown;
+                }
+                #mv {
+                    accent-color: rgb(80, 156, 80) 
+                }
+                #bac {
+                    accent-color: rgb(163, 6, 6);
+                }
+                #pao {
+                    accent-color: white
+                }
+            </style>
+        </p>
+        <fieldset>
+            <legend>Gênero</legend>
+            <input type="radio" id="masc" name="genero"/>
+            <label for="masc">Masculino</label>
+             <input type="radio" id="Fem" name="genero"/>
+            <label for="Fem">Feminino</label>
+             <input type="radio" id="outros" name="genero"/>
+            <label for="outros">Outros</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Monte seu lanche</legend>
+            <input type="checkbox" id="salada"  /> 
+            <label for="salada">Salada</label> 
+            <input type="checkbox" id="hamb" />
+            <label for="hamb">Hamburgue</label>
+            <input type="checkbox" id="tom" />
+            <label for="tom">Tomate</label> 
+             <input type="checkbox" id="mv" />
+            <label for="M.V">Maionese Verde</label> 
+             <input type="checkbox" id="bac" />
+            <label for="bac">Bacon</label> 
+             <input type="checkbox" id="pao" />
+            <label for="pao">Pão</label>    </fieldset>
+
+            <!-- ...código existente... -->
+<fieldset>
+    <legend>Bebidas</legend>
+    <label>
+        <input type="radio" name="bebida" value="refrigerante" />
+        <img src="Guaran.jpg" alt="Refrigerante" style="width:40px; vertical-align:middle;">
+        Refrigerante
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="bebida" value="suco" />
+        <img src="suco.jpg" alt="Suco" style="width:40px; vertical-align:middle;">
+        Suco
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="bebida" value="agua" />
+        <img src="Agua.jpg" alt="Água" style="width:40px; vertical-align:middle;">
+        Água
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="bebida" value="cha" />
+        <img src="Ice tea.webp" alt="Chá" style="width:40px; vertical-align:middle;">
+        Chá
+    </label>
+</fieldset>
+<fieldset>
+    <p>
+        <label for="info">Informações adicionais</label>
+        <textarea id="info"></textarea>
+    </p>
+    <p>
+        <label for="cidade">Informe sua cidade</label>
+        <select id="cidade">
+            <option>Jaguariuna</option>
+            <option>Amparo</option>
+            <option>Pirassununga (51)</option>
+            <option>Pedreira</option>
+            <option>Itapira</option>
+            <option>Cidade de Duas RUAS</option>
+            <option>Mostarda</option>
+            <option>pindamonhangaba</option>
+
+        </select>
+    </p>
+    <p>
+        <input type="reset" value="limpar Form" />
+        <button onclick="enviar()">Enviar</button>
+    <script>
+        function enviar(){
+            alert("Dados Enviados Com Sucesso");
+        }
+    </script>    
+    </p>
+</fieldset>
+
+
+       
+    </form>
+</body>
+</html>

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "SUSE mono", sans-serif;
+    background: #dfedf8;
+    color: hsl(209, 61%, 16%);
+    list-style: 1.5rem;
+    font-size: 0.9rem;
+}
+
+h1 {
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+    letter-spacing: 0.4rem;
+    font-size: 3rem;
+}
+
+main {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    text-align: center;  
+}
+
+#valor {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.btn {
+    text-transform: uppercase;
+    background: transparent;
+    color: #225;  
+    padding: 0.4rem 0.75rem;
+    display: inline-block;
+    font-size: 0.875rem;
+    border: 2px solid #222;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    transition: 0.3s;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    margin: 0.5rem;
+}

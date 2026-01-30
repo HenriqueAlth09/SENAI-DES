@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+    <img width="120" id="logo" src="Logo.png" alt="Logo">
+      <ul>
+        <li><input type="text" id="busca" placeholder="Buscar produto..."></li>
+        <li>Home</li>
+        <li>Sobre-Nós</li>
+        <li>Contato</li>
+      </ul>
+    <i id="btn-menu" class="fa-solid fa-bars fa-2xl"></i>
+    </header>
+   
+    <div class="container">
+        <nav id="menu-lateral">
+            <ul>
+                <li>Categorias</li>
+                <li>Promoções</li>
+                <li>Lançamentos</li>
+                <li>Carrinho</li>
+            </ul>
+        </nav>
+        <form action="">
+            <label for="categoria">Categoria</label>
+            <select name="categoria" id="categoria">
+                <option value="0" selected>Selecione uma categoria</option>
+                <option value="1" selected>Branco</option>
+                <option value="2" selected>Prata</option>
+                <option value="3" selected>Marrom</option>
+                <option value="4" selected>Chumbos</option>
+            </select>
+            <label for="valor">Valor Maximo</label>
+            <input type = "range" name = "valor" id = "valor" value = "0" min = "0" step = "5">
+            <button id="filtrar">Filtrar</button>
+
+
+
+        </form>
+
+        <main>
+            <div class="box">
+                <img src="/Carros/GOLF.jpg" alt="">
+                <div class="info">
+                    <p class="nome">Golf GTI</p>
+                    <p class="valor">RS$297.803</p>
+                    <p class = "categoria">Branco</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+           
+            <div class="box">
+                <img src="Carros/Jetta 600cv.jpg" alt="">
+                <div class="info">
+                    <p class="nome">Jetta GLI 600cv</p>
+                    <p class="valor">RS$300.980</p>
+                    <p class = "categoria">Branco</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+           
+            <div class="box">
+                <img src="/Carros/CRF 450.jpg" alt="">
+                <div class="info">
+                    <p class="nome">CRF 450</p>
+                    <p class="valor">RS$79.000</p>
+                    <p class = "categoria">Vermelha</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/Carros/Polo.jpg" alt="">
+                <div class="info">
+                    <p class="nome">Polo TSI Estage 3</p>
+                    <p class="valor">RS$110.960</p>
+                    <p class = "categoria">Branco</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+
+             <div class="box">
+                <img src="/Carros/718.jpg" alt="">
+                <div class="info">
+                    <p class="nome">Porsche 718 spyder</p>
+                    <p class="valor">RS$789.701</p>
+                    <p class = "categoria">Branco</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+
+             <div class="box">
+                <img src="/Carros/UP TSI STG 3.jpg" alt="">
+                <div class="info">
+                    <p class="nome">UP TSI STG 3</p>
+                    <p class="valor">RS$55.701</p>
+                    <p class = "categoria">Branco</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+
+               <div class="box">
+                <img src="/Carros/bmw3209.jpg" alt="">
+                <div class="info">
+                    <p class="nome">BMW 320i Estage 2</p>
+                    <p class="valor">RS$345.205</p>
+                    <p class = "categoria">Cinza</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+           
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+

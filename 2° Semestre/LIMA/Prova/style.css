@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'poppins';
+  background-size: cover;
+  color: #ffffff;
+  background-image: url('https://wallpapercave.com/wp/wp9376752.jpg'); 
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-attachment: fixed; 
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+  }
+
+.navbar {
+  background: rgb(42, 104, 51);
+  padding: 80px 0;
+  position: sticky;
+  top: 0;
+} 
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.navbar a {
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.header {
+  text-align: center;
+  padding: 100px 50px;
+  background: rgb(42, 104, 51);
+  font-size: 80px;
+}
+
+.seção {
+  padding: 60px 20px;
+  background-color: rgb(255, 255, 255, 0.5);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: #3f6342;
+  border-radius: 10px;
+  width: 220px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #91f5a7;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.gallery {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.gallery-images {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gallery-images img {
+  width: 250px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.gallery-images img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #a6f3b7;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input,
+form textarea {
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: inherit;
+  background-color: #a9f4af;
+  color: #3f6342;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+  color: #3f6342;
+}
+
+form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+form button {
+  padding: 12px;
+  background-color: #3f6342;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background-color: #bfffc6;
+}
+
+h2{
+    text-align: center;
+}
+
+footer {
+  background-color: rgb(52, 126, 58);
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
