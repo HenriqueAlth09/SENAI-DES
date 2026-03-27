@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo - Histórico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="caixa-maior">
+        <div class="secao-busca">
+            <input class="input-cidade" placeholder="Digite o nome da Cidade">
+            <button class="botao-busca" onclick="cliqueiNoBotao()">
+                <img class="img-busca" alt="busca" src="https://www.svgrepo.com/show/488200/find.svg">
+            </button>
+            <button class="botao-reset" onclick="resetarTudo()">Reset</button>
+        </div>
+
+        <div id="container-historico"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
